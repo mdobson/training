@@ -9,32 +9,6 @@
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-  <script src="js/apigee.js"></script>
-  <script>
-    var apigee = new Apigee.Client({
-      orgName:"mtraining",
-      appName:"sandbox"
-    });
-
-    var museums = new Apigee.Collection({
-      type:"museums",
-      client:apigee
-    });
-
-    museums.fetch(function(err, result) {
-      if(err) {
-        alert("Read failed!");
-      } else {
-        $("#entity-list").empty();
-        while(museums.hasNextEntity()) {
-          var museum = museums.getNextEntity();
-          var name = museum.get("museum");
-          alert(name);
-        }
-        $("#entity-list").listview("refresh");
-      }
-    });
-  </script>
 </head>
 <body>
   <!-- Home -->

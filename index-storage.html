@@ -24,14 +24,17 @@
     museums.fetch(function(err, result) {
       if(err) {
         alert("Read failed!");
+        $("#entity-list").html(localStorage.getItem("museums"));
       } else {
         $("#entity-list").empty();
         while(museums.hasNextEntity()) {
           var museum = museums.getNextEntity();
           var name = museum.get("museum");
-          alert(name);
+          var city = museum.get("city");
+          $("#entity-list").append("<li><h4>"+name+"</h4><p>"+city+"</p></li>");
         }
         $("#entity-list").listview("refresh");
+        localStorage.setItem("museums", $("#entity-list").html()); 
       }
     });
   </script>

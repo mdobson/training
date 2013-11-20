@@ -19,11 +19,7 @@
 
     var museums = new Apigee.Collection({
       type:"museums",
-      client:apigee,
-      "qs": {
-        "limit":25,
-        "ql":"order by museum"
-      }
+      client:apigee
     });
 
     function fetchMuseums() {
