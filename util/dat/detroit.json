@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "4f32c9a719836c91c7faa741",
+    "name": "Museum of Natural History",
+    "contact": {
+      "phone": "3135772872",
+      "formattedPhone": "(313) 577-2872"
+    },
+    "location": {
+      "address": "5047 Gullen Mall",
+      "lat": 42.355836,
+      "lng": -83.069208,
+      "distance": 3332,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 0,
+      "usersCount": 0,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4a903ba7f964a520b31620e3",
+    "name": "Museum Of Contemporary Art Detroit",
+    "contact": {
+      "phone": "3138326622",
+      "formattedPhone": "(313) 832-6622",
+      "twitter": "mocad"
+    },
+    "location": {
+      "address": "4454 Woodward Ave",
+      "crossStreet": "at Garfield St.",
+      "lat": 42.353596651583956,
+      "lng": -83.06164026260376,
+      "distance": 2793,
+      "postalCode": "48201",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d18f941735",
+        "name": "Art Museum",
+        "pluralName": "Art Museums",
+        "shortName": "Art Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 1669,
+      "usersCount": 1048,
+      "tipCount": 13
+    },
+    "url": "http://mocadetroit.org",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4e83902fd3e3c0c16a5b9c20",
+    "name": "Museum Of New Art (Detroit)",
+    "contact": {},
+    "location": {
+      "lat": 42.3783031975226,
+      "lng": -83.0595947135161,
+      "distance": 5343,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1e2931735",
+        "name": "Art Gallery",
+        "pluralName": "Art Galleries",
+        "shortName": "Art Gallery",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 12,
+      "usersCount": 10,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4a9abd98f964a520703220e3",
+    "name": "Michigan Science Center",
+    "contact": {
+      "twitter": "sciencedetroit"
+    },
+    "location": {
+      "address": "5020 John R St",
+      "crossStreet": "at Warren Ave.",
+      "lat": 42.35832193314178,
+      "lng": -83.06196212768555,
+      "distance": 3278,
+      "postalCode": "48202",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d191941735",
+        "name": "Science Museum",
+        "pluralName": "Science Museums",
+        "shortName": "Science Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_science_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 1546,
+      "usersCount": 1036,
+      "tipCount": 9
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4a903763f964a520961620e3",
+    "name": "Detroit Historical Museum",
+    "contact": {
+      "phone": "3138331805",
+      "formattedPhone": "(313) 833-1805",
+      "twitter": "dhsdetroit"
+    },
+    "location": {
+      "address": "5401 Woodward Ave",
+      "crossStreet": "at Kirby St.",
+      "lat": 42.35959966056378,
+      "lng": -83.06697592471333,
+      "distance": 3590,
+      "postalCode": "48202",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 1606,
+      "usersCount": 1026,
+      "tipCount": 13
+    },
+    "url": "http://www.detroithistorical.org/main/dhm/index.aspx",
+    "beenHere": {
+      "count": 1,
+      "marked": false
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4c9f7de58afca0939a8c0a16",
+    "name": "Windsor Community Museum",
+    "contact": {},
+    "location": {
+      "address": "254 pitt street west",
+      "lat": 42.31795023614405,
+      "lng": -83.04230748450308,
+      "distance": 1524,
+      "cc": "US",
+      "city": "Windsor",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 8,
+      "usersCount": 6,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4bf3e199cad2c928203a9b99",
+    "name": "Conservation and Museum Services",
+    "contact": {},
+    "location": {
+      "address": "905 Henry St.",
+      "crossStreet": "Grand River",
+      "lat": 42.33691261528855,
+      "lng": -83.0626916885376,
+      "distance": 1519,
+      "postalCode": "48201",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d124941735",
+        "name": "Office",
+        "pluralName": "Offices",
+        "shortName": "Office",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 82,
+      "usersCount": 3,
+      "tipCount": 1
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "50ad46e0498e258b05a36aca",
+    "name": "Cass Corridor Museum",
+    "contact": {},
+    "location": {
+      "address": "4470 2nd Ave",
+      "crossStreet": "Prentis",
+      "lat": 42.35226296512212,
+      "lng": -83.06753157892958,
+      "distance": 2931,
+      "postalCode": "48201",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 8,
+      "usersCount": 8,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4b48e12cf964a520695b26e3",
+    "name": "Dossin Great Lakes Museum",
+    "contact": {
+      "phone": "3138335538",
+      "formattedPhone": "(313) 833-5538"
+    },
+    "location": {
+      "address": "100 The Strand",
+      "crossStreet": "at Picnic Way",
+      "lat": 42.33478714446966,
+      "lng": -82.98531532287598,
+      "distance": 4991,
+      "postalCode": "48207",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 412,
+      "usersCount": 237,
+      "tipCount": 6
+    },
+    "url": "http://www.detroithistorical.org/main/dossin/index.aspx",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4c6421e33210ef3b0c411423",
+    "name": "Gordon L. Grosscup Museum of Anthropology",
+    "contact": {},
+    "location": {
+      "address": "4841 Cass Ave",
+      "crossStreet": "First Floor",
+      "lat": 42.35487949420047,
+      "lng": -83.0671017336267,
+      "distance": 3146,
+      "postalCode": "48201",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d191941735",
+        "name": "Science Museum",
+        "pluralName": "Science Museums",
+        "shortName": "Science Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_science_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 10,
+      "usersCount": 3,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "51e097e4498e78be09ef90d6",
+    "name": "Detroit History Museum",
+    "contact": {},
+    "location": {
+      "lat": 42.359943,
+      "lng": -83.06651,
+      "distance": 3605,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4deefb944765f83613cdba6e",
+        "name": "Historic Site",
+        "pluralName": "Historic Sites",
+        "shortName": "Historic Site",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/historicsite_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 2,
+      "usersCount": 2,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "5011da62e4b01be6215c1d21",
+    "name": "Hellenic Museum",
+    "contact": {},
+    "location": {
+      "address": "67 E Kirby St",
+      "crossStreet": "Woodward",
+      "lat": 42.360813685470674,
+      "lng": -83.06541377730514,
+      "distance": 3650,
+      "postalCode": "48202",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 26,
+      "usersCount": 15,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4e2b429962e144b5d3aaeb0c",
+    "name": "Detroit Public Library - Burton Historical Collection",
+    "contact": {
+      "phone": "3134811401",
+      "formattedPhone": "(313) 481-1401"
+    },
+    "location": {
+      "address": "5201 Woodward Ave",
+      "crossStreet": "btwn Warren & I-94",
+      "lat": 42.35789861583744,
+      "lng": -83.06668236964522,
+      "distance": 3413,
+      "postalCode": "48202",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d12f941735",
+        "name": "Library",
+        "pluralName": "Libraries",
+        "shortName": "Library",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/building/library_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 48,
+      "usersCount": 20,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "51b358d9498e20832584848b",
+    "name": "Metallica Museum",
+    "contact": {},
+    "location": {
+      "lat": 42.336702039816906,
+      "lng": -82.98098699971435,
+      "distance": 5366,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d18f941735",
+        "name": "Art Museum",
+        "pluralName": "Art Museums",
+        "shortName": "Art Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 13,
+      "usersCount": 13,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4a903bcff964a520b71620e3",
+    "name": "Charles H Wright Museum of African American History",
+    "contact": {
+      "phone": "3134945800",
+      "formattedPhone": "(313) 494-5800",
+      "twitter": "chwmuseum"
+    },
+    "location": {
+      "address": "315 E Warren Ave",
+      "crossStreet": "btwn Brush and John R",
+      "lat": 42.3591305866611,
+      "lng": -83.06093215942383,
+      "distance": 3328,
+      "postalCode": "48201",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "checkinsCount": 2150,
+      "usersCount": 1139,
+      "tipCount": 23
+    },
+    "url": "http://www.thewright.org",
+    "specials": {
+      "count": 1,
+      "items": [
+        {
+          "id": "4f061d10e5e8b3248fb97dbe",
+          "type": "frequency",
+          "message": "Receive $10.00 discount on Individual or Family Membership. Mention Code: #4S10",
+          "description": "Unlocked every check-in",
+          "finePrint": "Must redeem membership in person during regular business hours. One Membership per person.",
+          "icon": "check-in",
+          "title": "Check-in Special",
+          "provider": "foursquare",
+          "redemption": "standard"
+        }
+      ]
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "storeId": "",
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4c278325905a0f4708fb6460",
+    "name": "Detroit Children's Museum",
+    "contact": {},
+    "location": {
+      "address": "6134 2nd Ave",
+      "lat": 42.365268,
+      "lng": -83.07414,
+      "distance": 4432,
+      "postalCode": "48202",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 125,
+      "usersCount": 65,
+      "tipCount": 1
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4b96b717f964a520d9df34e3",
+    "name": "Pewabic Pottery",
+    "contact": {
+      "phone": "3136262010",
+      "formattedPhone": "(313) 626-2010",
+      "twitter": "pewabic"
+    },
+    "location": {
+      "address": "10125 E Jefferson Ave",
+      "lat": 42.36182823337831,
+      "lng": -82.9815748720729,
+      "distance": 6276,
+      "postalCode": "48214",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d1e2931735",
+        "name": "Art Gallery",
+        "pluralName": "Art Galleries",
+        "shortName": "Art Gallery",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/artgallery_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "checkinsCount": 858,
+      "usersCount": 415,
+      "tipCount": 7
+    },
+    "url": "http://www.pewabic.org",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "storeId": "",
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f32be3819836c91c7f5a1ee",
+    "name": "Tuskegee Airman National Historical Museum",
+    "contact": {
+      "phone": "3138438849",
+      "formattedPhone": "(313) 843-8849"
+    },
+    "location": {
+      "address": "6325 W Jefferson Ave",
+      "lat": 42.2999,
+      "lng": -83.099197,
+      "distance": 5622,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 3,
+      "usersCount": 3,
+      "tipCount": 1
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4bd09b6741b9ef3bf26efae5",
+    "name": "Motown Historical Museum / Hitsville U.S.A.",
+    "contact": {
+      "phone": "3138752264",
+      "formattedPhone": "(313) 875-2264",
+      "twitter": "motown_museum"
+    },
+    "location": {
+      "address": "2648 W Grand Blvd",
+      "lat": 42.36425176834494,
+      "lng": -83.08848050538457,
+      "distance": 5069,
+      "postalCode": "48208",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "checkinsCount": 2284,
+      "usersCount": 1878,
+      "tipCount": 51
+    },
+    "url": "http://www.motownmuseum.com",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "venuePage": {
+      "id": "32886581"
+    },
+    "storeId": "",
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4c917c72104a9521a199eca9",
+    "name": "African Bead Museum",
+    "contact": {
+      "phone": "3138983007",
+      "formattedPhone": "(313) 898-3007"
+    },
+    "location": {
+      "address": "6559 Grand River Ave",
+      "crossStreet": "btwn Taft & W Vinewood",
+      "lat": 42.35592607424054,
+      "lng": -83.10865265549064,
+      "distance": 5847,
+      "postalCode": "48208",
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d18f941735",
+        "name": "Art Museum",
+        "pluralName": "Art Museums",
+        "shortName": "Art Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_art_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 116,
+      "usersCount": 98,
+      "tipCount": 4
+    },
+    "url": "http://www.mbad.org",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4ad21652f964a52054df20e3",
+    "name": "Henry Ford Museum",
+    "contact": {
+      "phone": "3139826001",
+      "formattedPhone": "(313) 982-6001",
+      "twitter": "thehenryford"
+    },
+    "location": {
+      "address": "20900 Oakwood Blvd",
+      "crossStreet": "at Village Rd",
+      "lat": 42.30328924424133,
+      "lng": -83.2338085770607,
+      "distance": 15788,
+      "postalCode": "48124",
+      "cc": "US",
+      "city": "Dearborn",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 13387,
+      "usersCount": 8228,
+      "tipCount": 66
+    },
+    "url": "http://www.thehenryford.org",
+    "beenHere": {
+      "count": 1,
+      "marked": false
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 1,
+      "groups": [
+        {
+          "type": "others",
+          "name": "Other people here",
+          "count": 1,
+          "items": []
+        }
+      ]
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f32cafe19836c91c7fb3ee9",
+    "name": "Ukrainian American Museum",
+    "contact": {
+      "phone": "3133669764",
+      "formattedPhone": "(313) 366-9764"
+    },
+    "location": {
+      "address": "11756 Charest St",
+      "lat": 42.405102,
+      "lng": -83.059898,
+      "distance": 8285,
+      "cc": "US",
+      "city": "Hamtramck",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 0,
+      "usersCount": 0,
+      "tipCount": 0
+    },
+    "url": "http://www.ukrainianmuseumdetroit.org",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f788cfee4b087957bb5fb5f",
+    "name": "Ukrainian-American Archives & Museum",
+    "contact": {},
+    "location": {
+      "lat": 42.40398278161935,
+      "lng": -83.0723121078131,
+      "distance": 8368,
+      "postalCode": "48212",
+      "cc": "US",
+      "city": "Hamtramck",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 2,
+      "usersCount": 2,
+      "tipCount": 1
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f7dae14e4b0bd0c001ee610",
+    "name": "Museum Store",
+    "contact": {},
+    "location": {
+      "lat": 42.30270329959198,
+      "lng": -83.23381631991593,
+      "distance": 15802,
+      "postalCode": "48124",
+      "cc": "US",
+      "city": "Dearborn",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d128951735",
+        "name": "Gift Shop",
+        "pluralName": "Gift Shops",
+        "shortName": "Gift Shop",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/shops/giftshop_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 42,
+      "usersCount": 38,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4b21639ef964a520223b24e3",
+    "name": "Arab American National Museum",
+    "contact": {
+      "phone": "3136240220",
+      "formattedPhone": "(313) 624-0220"
+    },
+    "location": {
+      "address": "13624 Michigan Ave",
+      "crossStreet": "Schaefer Rd",
+      "lat": 42.32244530505564,
+      "lng": -83.176589012146,
+      "distance": 10809,
+      "postalCode": "48126",
+      "cc": "US",
+      "city": "Dearborn",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": true,
+    "stats": {
+      "checkinsCount": 419,
+      "usersCount": 298,
+      "tipCount": 7
+    },
+    "url": "http://www.arabamericanmuseum.org",
+    "specials": {
+      "count": 1,
+      "items": [
+        {
+          "id": "4c61a9a7e134952170aea5f0",
+          "type": "frequency",
+          "message": "A Foursquare special! Check in 3 times and get a one-year individual membership (valued at $35) to the Arab American National Museum!",
+          "description": "Unlocked every 3 check-ins",
+          "icon": "frequency",
+          "title": "Loyalty Special",
+          "provider": "foursquare",
+          "redemption": "standard"
+        }
+      ]
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4bae928bf964a5202bc23be3",
+    "name": "Lovett Hall",
+    "contact": {},
+    "location": {
+      "address": "20900 Oakwood Blvd",
+      "crossStreet": "at Village Rd.",
+      "lat": 42.30534039959755,
+      "lng": -83.23379516601562,
+      "distance": 15743,
+      "postalCode": "48124",
+      "cc": "US",
+      "city": "Dearborn",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d130941735",
+        "name": "Building",
+        "pluralName": "Buildings",
+        "shortName": "Building",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/building/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 1551,
+      "usersCount": 279,
+      "tipCount": 2
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f8c5d2fe4b0e81f6a2d9aaa",
+    "name": "Tecumseh Museum",
+    "contact": {},
+    "location": {
+      "lat": 42.314455445613476,
+      "lng": -82.88730180701198,
+      "distance": 13180,
+      "cc": "CA",
+      "country": "Canada"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 3,
+      "usersCount": 2,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "521661a611d2eea0014f23d2",
+    "name": "Lincoln Park Historical Museum",
+    "contact": {},
+    "location": {
+      "lat": 42.25311179814994,
+      "lng": -83.18079179785393,
+      "distance": 14124,
+      "cc": "US",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d190941735",
+        "name": "History Museum",
+        "pluralName": "History Museums",
+        "shortName": "History Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_history_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 2,
+      "usersCount": 2,
+      "tipCount": 0
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "4f32ba3a19836c91c7f3e2b6",
+    "name": "Curtis Museum",
+    "contact": {
+      "phone": "3133411512",
+      "formattedPhone": "(313) 341-1512"
+    },
+    "location": {
+      "address": "14022 W McNichols Rd",
+      "lat": 42.416698,
+      "lng": -83.183197,
+      "distance": 14759,
+      "cc": "US",
+      "city": "Detroit",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d181941735",
+        "name": "Museum",
+        "pluralName": "Museums",
+        "shortName": "Museum",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/arts_entertainment/museum_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 0,
+      "usersCount": 0,
+      "tipCount": 0
+    },
+    "url": "http://www.curtismuseum.com",
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  },
+  {
+    "id": "5006e757e4b02fc718a3bb6b",
+    "name": "Conn's Museum",
+    "contact": {},
+    "location": {
+      "isFuzzed": true,
+      "lat": 42.245402504178735,
+      "lng": -83.18097756644471,
+      "distance": 14682,
+      "cc": "US",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "country": "United States"
+    },
+    "categories": [
+      {
+        "id": "4bf58dd8d48988d103941735",
+        "name": "Home (private)",
+        "pluralName": "Homes (private)",
+        "shortName": "Home",
+        "icon": {
+          "prefix": "https://ss1.4sqi.net/img/categories_v2/building/home_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }
+    ],
+    "verified": false,
+    "stats": {
+      "checkinsCount": 1,
+      "usersCount": 1,
+      "tipCount": 1
+    },
+    "specials": {
+      "count": 0,
+      "items": []
+    },
+    "hereNow": {
+      "count": 0,
+      "groups": []
+    },
+    "referralId": "v-1384955908"
+  }
+]

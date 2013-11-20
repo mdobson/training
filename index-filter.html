@@ -57,15 +57,15 @@
         } else {
           $("#museum-name").val("");
           $("#city-name").val("");
-          fetch_museums();
+          fetchMuseums();
           history.back();
         }
       });
     }
     
-    $("#btn-add-museum").on("click", add_museum);
+    $("#btn-add-museum").on("click", addMuseum);
 
-    fetch_museums();
+    fetchMuseums();
   });
   </script>
 </head>
