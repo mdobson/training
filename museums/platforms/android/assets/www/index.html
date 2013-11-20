@@ -1,42 +1,117 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Museums</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <script src="js/apigee.js"></script>
+  <script>
+  $(document).ready(function(){
+    var apigee = new Apigee.Client({
+      orgName:"mtraining",
+      appName:"sandbox"
+    });
+
+    var museums = new Apigee.Collection({
+      type:"museums",
+      client:apigee
+    });
+
+    function fetchMuseums() {
+      museums.fetch(function(err, result) {
+        if(err) {
+          alert("Read failed!");
+          $("#entity-list").html(localStorage.getItem("museums"));
+        } else {
+          $("#entity-list").empty();
+          while(museums.hasNextEntity()) {
+            var museum = museums.getNextEntity();
+            var name = museum.get("museum");
+            var city = museum.get("city");
+            $("#entity-list").append("<li><h4>"+name+"</h4><p>"+city+"</p></li>");
+          }
+          $("#entity-list").listview("refresh");
+          localStorage.setItem("museums", $("#entity-list").html()); 
+        }
+      });
+    }
+
+    function addMuseum() {
+      var museum = {
+        "museum":$("#museum-name").val(),
+        "city":$("#city-name").val()
+      };
+
+      museums.addEntity(museum, function(error, response) {
+        if(error) {
+          alert("Write Failed");
+        } else {
+          $("#museum-name").val("");
+          $("#city-name").val("");
+          fetchMuseums();
+          history.back();
+        }
+      });
+    }
+    
+    $("#btn-add-museum").on("click", addMuseum);
+
+    fetchMuseums();
+  });
+  </script>
+</head>
+<body>
+  <!-- Home -->
+  <div data-role="page" id="page1">
+      <div data-theme="b" data-role="header">
+          <h3>
+             Museums 
+          </h3>
+          <a href="#page2" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Login</a>
+      </div>
+      <div data-role="content">
+          <ul data-role="listview" data-divider-theme="b" data-inset="false" id="entity-list">
+            <li>
+              <h4>Museum Name</h4>
+              <p> Museum Location </p>
+            </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" id="page2">
+    <div data-theme="b" data-role="header">
+      <h3>
+        Add Museum
+      </h3>
+    </div>
+    <div data-role="content">
+      <form id="form-add" action="">
+        <div data-role="fieldcontain" data-controltype="textinput">
+            <label for="museum-name">
+                Name:
+            </label>
+            <input name="museum-name" id="museum-name" placeholder="" value="" type="text">
         </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+        <div data-role="fieldcontain" data-controltype="textinput">
+            <label for="city-name">
+                City:
+            </label>
+            <input name="city-name" id="city-name" placeholder="" value="" type="text">
+        </div>
+        <a id="btn-cancel" data-role="button" data-inline="true" data-direction="reverse" data-rel="back"
+        href="#page1">
+            Cancel
+        </a>
+        <a id="btn-add-museum" data-role="button" data-inline="true" data-direction="reverse">
+            Submit
+        </a>
+    </form>
+    </div>
+  </div>
+</body>
 </html>

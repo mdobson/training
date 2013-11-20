@@ -26,6 +26,7 @@
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/spec.html \
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/css/index.css \
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/img/logo.png \
+/Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/js/apigee.js \
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/js/index.js \
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/res/icon \
 /Users/ApigeeCorporation/usergridapps/training/museums/platforms/android/assets/www/res/screen \
