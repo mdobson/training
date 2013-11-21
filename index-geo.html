@@ -17,8 +17,11 @@
       appName:"sandbox"
     });
 
+    //Retrieve the geo point via the browser
+    //First argument is the success callback function and second is failure
     navigator.geolocation.getCurrentPosition(success, failure);
 
+    //our success callback
     function success(e) {
       console.log(e);
       //cache the loc
@@ -26,6 +29,7 @@
       fetchMuseums(loc);
     }
 
+    //What we call if we can't access the geo point
     function failure() {
       alert("Unable to get location");
       fetchMuseums();
