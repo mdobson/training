@@ -6,9 +6,6 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Museums</title>
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
   <script src="js/apigee.js"></script>
   <script>
     var apigee = new Apigee.Client({
@@ -34,25 +31,15 @@
         $("#entity-list").listview("refresh");
       }
     });
+
+    //Uncomment to add data to your store!
+    // museum = {"museum":"Detroit Institute of Art"};
+    // museums.addEntity(museum, function(error, response) {
+    //  if (error) { alert("write failed"); }
+    //  else { alert("succeeded!"); }
+    // });
   </script>
 </head>
 <body>
-  <!-- Home -->
-  <div data-role="page" id="page1">
-      <div data-theme="b" data-role="header">
-          <h3>
-             Museums 
-          </h3>
-          <a href="#page2" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Login</a>
-      </div>
-      <div data-role="content">
-          <ul data-role="listview" data-divider-theme="b" data-inset="false" id="entity-list">
-            <li>
-              <h4>Museum Name</h4>
-              <p> Museum Location </p>
-            </li>
-          </ul>
-      </div>
-  </div>
 </body>
 </html>
