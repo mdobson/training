@@ -22,13 +22,11 @@
       if(err) {
         alert("Read failed!");
       } else {
-        $("#entity-list").empty();
         while(museums.hasNextEntity()) {
           var museum = museums.getNextEntity();
           var name = museum.get("museum");
           alert(name);
         }
-        $("#entity-list").listview("refresh");
       }
     });
 

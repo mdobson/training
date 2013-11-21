@@ -28,13 +28,11 @@ Ever curious what museums are in your area? Well Apigee will help you build that
       if(err) {
         alert("Read failed!");
       } else {
-        $("#entity-list").empty();
         while(museums.hasNextEntity()) {
           var museum = museums.getNextEntity();
           var name = museum.get("museum");
           alert(name);
         }
-        $("#entity-list").listview("refresh");
       }
     });
 
