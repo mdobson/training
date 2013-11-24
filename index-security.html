@@ -13,13 +13,15 @@
   <script>
   $(document).ready(function(){
     var apigee = new Apigee.Client({
-      orgName:"YOUR APIGEE.COM USERNAME",
+      orgName:"mtraining",
       appName:"sandbox"
     });
 
     //Retrieve the geo point via the browser
     //First argument is the success callback function and second is failure
-    navigator.geolocation.getCurrentPosition(success, failure);
+    $("#page1").live("pageshow", function() {
+      navigator.geolocation.getCurrentPosition(success, failure);
+    });
 
     //our success callback
     function success(e) {
@@ -92,14 +94,51 @@
         }
       });
     }
+
+    function loginToApp() {
+      var username = $("#uname-text").val();
+      var password = $("#pass-text").val();
+      apigee.login(username, password, function(error, response) {
+        if(!error) {
+          $.mobile.changePage("#page1");
+          $("#uname-text").val("");
+          $("#pass-text").val("");
+        } else {
+          alert("Error logging in");
+        }
+      });
+    }
     
     $("#btn-add-museum").on("click", addMuseum);
-
+    $("#btn-login").on("click", loginToApp);
   });
   </script>
 </head>
 <body>
   <!-- Home -->
+  <div data-role="page" id="login">
+    <div data-role="header" data-theme="b">
+        <h3>
+          Login
+        </h3>
+    </div>
+    <div data-role="content">
+      <form>
+        <div data-role="fieldcontain" data-controltype="textinput">
+          <label for="uname-text">
+            Username:
+          </label>
+          <input type="text" id="uname-text" name="uname-text"/>
+        </div>
+        <div data-role="fieldcontain" data-controltype="textinput">
+          <label for="pass-text">
+            Password:
+          </label>
+          <input type="password" id="pass-text" name="pass-text"/>
+        </div>
+        <a id="btn-login" data-role="button">Login</a>
+    </div>
+  </div>
   <div data-role="page" id="page1">
       <div data-theme="b" data-role="header">
           <h3>
