@@ -20,6 +20,9 @@
     //Retrieve the geo point via the browser
     //First argument is the success callback function and second is failure
     $("#page1").live("pageshow", function() {
+      if(loggedInUser) {
+        $("#uname-label").text(loggedInUser.get("name"));
+      }
       navigator.geolocation.getCurrentPosition(success, failure);
     });
 
@@ -95,11 +98,14 @@
       });
     }
 
+    var loggedInUser = null;
     function loginToApp() {
       var username = $("#uname-text").val();
       var password = $("#pass-text").val();
-      apigee.login(username, password, function(error, response) {
+      apigee.login(username, password, function(error, response, user) {
         if(!error) {
+          //Cache user entity in a variable
+          loggedInUser = user;
           $.mobile.changePage("#page1");
           $("#uname-text").val("");
           $("#pass-text").val("");
@@ -147,6 +153,7 @@
           <a href="#page2" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Add</a>
       </div>
       <div data-role="content">
+          <p> Welcome, <span id="uname-label">Username</span>! </p>
           <ul data-role="listview" data-divider-theme="b" data-inset="false" id="entity-list">
             <li>
               <h4>Museum Name</h4>
