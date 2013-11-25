@@ -1,0 +1,264 @@
+[
+  {
+    "location": {
+      "latitude": 39.95323389194752,
+      "longitude": -75.17681092393029
+    },
+    "address": "19 S 22nd St",
+    "city": "Philadelpha",
+    "museum": "Mütter Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.96317498054581,
+      "longitude": -75.16862869262695
+    },
+    "address": "1800 Spring Garden St",
+    "city": "Philadelphia",
+    "museum": "Museum Market"
+  },
+  {
+    "location": {
+      "latitude": 39.948832222761844,
+      "longitude": -75.19030094146729
+    },
+    "address": "3260 South St",
+    "city": "Philadelphia",
+    "museum": "Museum Library"
+  },
+  {
+    "location": {
+      "latitude": 39.953857,
+      "longitude": -75.159828
+    },
+    "address": "1222 Arch St",
+    "city": "Philadelphia",
+    "museum": "Museum 1214"
+  },
+  {
+    "location": {
+      "latitude": 39.963086905627065,
+      "longitude": -75.16844935753795
+    },
+    "address": "1801 Buttonwood St",
+    "city": "Philadelphia",
+    "museum": "Museum Towers Apartments"
+  },
+  {
+    "location": {
+      "latitude": 39.9625751412848,
+      "longitude": -75.16862605509625
+    },
+    "museum": "Museum Towers Gym"
+  },
+  {
+    "location": {
+      "latitude": 39.960027769798096,
+      "longitude": -75.16681917068432
+    },
+    "address": "25 Benjamin Franklin Pkwy",
+    "city": "Philadelphia",
+    "museum": "Museum Restaurant"
+  },
+  {
+    "location": {
+      "latitude": 39.963331,
+      "longitude": -75.177109
+    },
+    "address": "2600 Benjamin Franklin Pkwy",
+    "city": "Philadelphia",
+    "museum": "Museum Restaurant"
+  },
+  {
+    "location": {
+      "latitude": 39.962735,
+      "longitude": -75.16798
+    },
+    "address": "1801 Buttonwood St",
+    "city": "Philadelphia",
+    "museum": "Museum Towers Roof Deck"
+  },
+  {
+    "location": {
+      "latitude": 39.949756,
+      "longitude": -75.190923
+    },
+    "address": "3260 South St",
+    "city": "Philadelphia",
+    "museum": "Museum Catering Co"
+  },
+  {
+    "location": {
+      "latitude": 39.96572412377141,
+      "longitude": -75.18122434616089
+    },
+    "address": "2600 Benjamin Franklin Pkwy",
+    "city": "Philadelphia",
+    "museum": "Philadelphia Museum of Art"
+  },
+  {
+    "location": {
+      "latitude": 39.961180079119586,
+      "longitude": -75.14439953666329
+    },
+    "address": "Spring Garden St",
+    "city": "Philadelphia",
+    "museum": "Museum Deli"
+  },
+  {
+    "location": {
+      "latitude": 39.965368448154564,
+      "longitude": -75.17204881855378
+    },
+    "city": "Philadelphia",
+    "museum": "Museum Towers"
+  },
+  {
+    "location": {
+      "latitude": 39.942222647104586,
+      "longitude": -75.1487007285481
+    },
+    "city": "Philadelphia",
+    "museum": "The Museum At 123"
+  },
+  {
+    "location": {
+      "latitude": 39.97062191688726,
+      "longitude": -75.18506945670237
+    },
+    "city": "Philadelphia",
+    "museum": "Museum Cafe"
+  },
+  {
+    "location": {
+      "latitude": 39.94972603664826,
+      "longitude": -75.19168052862787
+    },
+    "address": "3260 South St",
+    "city": "Philadelphia",
+    "museum": "Penn Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.961990830073105,
+      "longitude": -75.17388582229614
+    },
+    "address": "Benjamin Franklin Pkwy & N 22nd St",
+    "city": "Philadelphia",
+    "museum": "Rodin Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.96488208492165,
+      "longitude": -75.17997988099856
+    },
+    "address": "2600 Benjamin Franklin Pkwy",
+    "city": "Philadelphia",
+    "museum": "Art Museum Steps"
+  },
+  {
+    "location": {
+      "latitude": 39.980899,
+      "longitude": -75.128404
+    },
+    "city": "Philadelphia",
+    "museum": "Museum of Pizza Culture"
+  },
+  {
+    "location": {
+      "latitude": 39.95209182478088,
+      "longitude": -75.16086257486633
+    },
+    "address": "1234 Market St",
+    "city": "Philadelphia",
+    "museum": "SEPTA Transit Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.947498,
+      "longitude": -75.168404
+    },
+    "address": "1606 Spruce St",
+    "city": "Philadelphia",
+    "museum": "Romanian Folk Art Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.948693,
+      "longitude": -75.147047
+    },
+    "address": "321 Chestnut St",
+    "city": "Philadelphia",
+    "museum": "National Liberty Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.95295166066775,
+      "longitude": -75.1515196699792
+    },
+    "address": "701 Arch St",
+    "city": "Philadelphia",
+    "museum": "African American Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.94218616399169,
+      "longitude": -75.17480850219727
+    },
+    "address": "762 S. Martin St",
+    "city": "Philadelphia",
+    "museum": "Marian Anderson Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.947461093756324,
+      "longitude": -75.17496993564382
+    },
+    "address": "2008-2010 Delancey Pl",
+    "city": "Philadelphia",
+    "museum": "Rosenbach Museum & Library"
+  },
+  {
+    "location": {
+      "latitude": 39.9794692983748,
+      "longitude": -75.20935807359375
+    },
+    "address": "4231 Avenue of the Republic Ave",
+    "city": "Philadelphia",
+    "museum": "Please Touch Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.94618617797144,
+      "longitude": -75.14048304114137
+    },
+    "address": "211 S Columbus Blvd",
+    "city": "Philadelphia",
+    "museum": "Independence Seaport Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.94960337062744,
+      "longitude": -75.14658292641133
+    },
+    "city": "Philadelphia",
+    "museum": "Benjamin Franklin Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.95441,
+      "longitude": -75.153093
+    },
+    "address": "148 N 8th St",
+    "city": "Philadelphia",
+    "museum": "Shoe Museum"
+  },
+  {
+    "location": {
+      "latitude": 39.970332494773075,
+      "longitude": -75.17702180975361
+    },
+    "city": "Philadelphia",
+    "museum": "Art Museum Area"
+  }
+]
