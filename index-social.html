@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Museums</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <script src="js/apigee.js"></script>
+  <script>
+  $(document).ready(function(){
+    var apigee = new Apigee.Client({
+      orgName:"mtraining",
+      appName:"sandbox",
+      logging:true
+    });
+
+    //Retrieve the geo point via the browser
+    //First argument is the success callback function and second is failure
+    $("#page1").live("pageshow", function() {
+      if(loggedInUser) {
+        $("#uname-label").text(loggedInUser.get("name"));
+      }
+      navigator.geolocation.getCurrentPosition(success, failure);
+    });
+
+    //our success callback
+    function success(e) {
+      console.log(e);
+      //cache the loc
+      loc = e;
+      fetchMuseums(loc);
+    }
+
+    //What we call if we can't access the geo point
+    function failure() {
+      alert("Unable to get location");
+      fetchMuseums();
+    }
+
+
+    function fetchMuseums(loc) {
+      if(!loc) {
+        museums = new Apigee.Collection({
+          type:"museums",
+          client: apigee
+        });
+      } else {
+        museums = new Apigee.Collection({
+          type:"museums",
+          client:apigee,
+          "qs": {
+            "limit":25,
+            "ql":"location within 15000 of " + loc.coords.latitude +","+loc.coords.longitude
+         }
+       });
+      }
+
+      museums.fetch(function(err, result) {
+        if(err) {
+          alert("Read failed!");
+          $("#entity-list").html(localStorage.getItem("museums"));
+        } else {
+          $("#entity-list").empty();
+          while(museums.hasNextEntity()) {
+            var museum = museums.getNextEntity();
+            var name = museum.get("museum");
+            var city = museum.get("city");
+            var uuid = museum.get("uuid");
+            $("#entity-list").append("<li class='museum' data-icon='check' data-id='"+uuid+"'><h4>"+name+"</h4><p>"+city+"</p><a></a></li>");
+          }
+          $("#entity-list").listview("refresh");
+          localStorage.setItem("museums", $("#entity-list").html()); 
+        }
+      });
+    }
+
+    function addMuseum() {
+      var museum = {
+        "museum":$("#museum-name").val(),
+        "city":$("#city-name").val(),
+        "location": {
+          "latitude": loc.coords.latitude,
+          "longitude": loc.coords.longitude
+        }
+      };
+
+      museums.addEntity(museum, function(error, response) {
+        if(error) {
+          alert("Write Failed");
+        } else {
+          $("#museum-name").val("");
+          $("#city-name").val("");
+          fetchMuseums(loc);
+          history.back();
+        }
+      });
+    }
+
+    var loggedInUser = null;
+    function loginToApp() {
+      var username = $("#uname-text").val();
+      var password = $("#pass-text").val();
+      apigee.login(username, password, function(error, response, user) {
+        if(!error) {
+          //Cache user entity in a variable
+          loggedInUser = user;
+          $.mobile.changePage("#page1");
+          $("#uname-text").val("");
+          $("#pass-text").val("");
+        } else {
+          alert("Error logging in");
+        }
+      });
+    }
+
+    function likeMuseum(uuid) {
+      if(loggedInUser) {
+        //Get uuid
+        var opts = {
+          "type":"museums",
+          "uuid":uuid
+        }
+        apigee.getEntity(opts, function(error, museum, data) {
+          if(error) {
+            alert("There was an error liking this museum");
+          } else { 
+            loggedInUser.connect("likes", museum, function(error, data) {
+              if(error) {
+                alert("There was an error liking this museum");
+              } else {
+                var name = museum.get("museum");
+                alert("Awesome! You like "+name);
+              }
+            });
+          }
+        });
+      } else {
+        alert("no user logged in!");
+      }
+    }
+    
+    $("#btn-add-museum").on("click", addMuseum);
+    $("#btn-login").on("click", loginToApp);
+    $("#entity-list").on("click", "li", function(){
+      var uuid = $(this).data("id");
+      likeMuseum(uuid);
+    });
+  });
+  </script>
+</head>
+<body>
+  <!-- Home -->
+  <div data-role="page" id="login">
+    <div data-role="header" data-theme="b">
+        <h3>
+          Login
+        </h3>
+    </div>
+    <div data-role="content">
+      <form>
+        <div data-role="fieldcontain" data-controltype="textinput">
+          <label for="uname-text">
+            Username:
+          </label>
+          <input type="text" id="uname-text" name="uname-text"/>
+        </div>
+        <div data-role="fieldcontain" data-controltype="textinput">
+          <label for="pass-text">
+            Password:
+          </label>
+          <input type="password" id="pass-text" name="pass-text"/>
+        </div>
+        <a id="btn-login" data-role="button">Login</a>
+    </div>
+  </div>
+  <div data-role="page" id="page1">
+      <div data-theme="b" data-role="header">
+          <h3>
+             Museums 
+          </h3>
+          <a href="#page2" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Add</a>
+      </div>
+      <div data-role="content">
+          <p> Welcome, <span id="uname-label">Username</span>! </p>
+          <ul data-role="listview" data-divider-theme="b" data-inset="false" id="entity-list">
+            <li>
+              <h4>Museum Name</h4>
+              <p> Museum Location </p>
+            </li>
+          </ul>
+      </div>
+  </div>
+  <div data-role="page" id="page2">
+    <div data-theme="b" data-role="header">
+      <h3>
+        Add Museum
+      </h3>
+    </div>
+    <div data-role="content">
+      <form id="form-add" action="">
+        <div data-role="fieldcontain" data-controltype="textinput">
+            <label for="museum-name">
+                Name:
+            </label>
+            <input name="museum-name" id="museum-name" placeholder="" value="" type="text">
+        </div>
+        <div data-role="fieldcontain" data-controltype="textinput">
+            <label for="city-name">
+                City:
+            </label>
+            <input name="city-name" id="city-name" placeholder="" value="" type="text">
+        </div>
+        <a id="btn-cancel" data-role="button" data-inline="true" data-direction="reverse" data-rel="back"
+        href="#page1">
+            Cancel
+        </a>
+        <a id="btn-add-museum" data-role="button" data-inline="true" data-direction="reverse">
+            Submit
+        </a>
+    </form>
+    </div>
+  </div>
+</body>
+</html>
