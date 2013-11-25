@@ -1,4 +1,6 @@
-var json = require('./dat/detroit.json');
+
+var file = process.argv[2];
+var json = require(file);
 
 var clean = [];
 

@@ -1,0 +1,219 @@
+[
+  {
+    "location": {
+      "latitude": 43.04051266363456,
+      "longitude": -87.92100507539449
+    },
+    "address": "800 W Wells St",
+    "city": "Milwaukee",
+    "museum": "Milwaukee Public Museum, 3D Dome Theater & Planetarium"
+  },
+  {
+    "location": {
+      "latitude": 43.031380409859516,
+      "longitude": -87.91740417480469
+    },
+    "address": "400 W Canal St",
+    "city": "Milwaukee",
+    "museum": "Harley-Davidson Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.03937930515591,
+      "longitude": -87.89705157279968
+    },
+    "address": "700 N Art Museum Dr",
+    "city": "Milwaukee",
+    "museum": "Milwaukee Art Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.036999350664736,
+      "longitude": -87.92791843414307
+    },
+    "address": "530 N 13th St",
+    "city": "Milwaukee",
+    "museum": "Haggerty Museum of Art"
+  },
+  {
+    "location": {
+      "latitude": 43.03129107541388,
+      "longitude": -87.91625923451447
+    },
+    "address": "401 W Canal St",
+    "city": "Milwaukee",
+    "museum": "Motor Bar & Restaurant"
+  },
+  {
+    "location": {
+      "latitude": 43.043623344417526,
+      "longitude": -87.90827972292033
+    },
+    "address": "1000 N Broadway St",
+    "city": "Milwaukee",
+    "museum": "Grohmann Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.04096127590121,
+      "longitude": -87.92107211696435
+    },
+    "city": "Milwaukee",
+    "museum": "Milwaukee County Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.03875720597059,
+      "longitude": -87.89953702764478
+    },
+    "address": "929 E Wisconsin Ave",
+    "city": "Milwaukee",
+    "museum": "Betty Brinn Children's Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.031389,
+      "longitude": -87.930243
+    },
+    "address": "401 W. Canal St.",
+    "city": "Milwaukee",
+    "museum": "Motor at the Harley-Davidson Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.0413368,
+      "longitude": -87.92645368
+    },
+    "address": "839 N 11th St",
+    "city": "Milwaukee",
+    "museum": "The Chudnow Museum of Yesteryear"
+  },
+  {
+    "location": {
+      "latitude": 43.03135514259213,
+      "longitude": -87.91651863
+    },
+    "address": "401 W Canal St",
+    "city": "Milwaukee",
+    "museum": "The Shop at the Harley-Davidson Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.04355239868164,
+      "longitude": -87.90804290771484
+    },
+    "city": "Milwaukee",
+    "museum": "grohmann museum rooftop"
+  },
+  {
+    "location": {
+      "latitude": 43.044667,
+      "longitude": -87.909234
+    },
+    "address": "276 e Highland ave",
+    "city": "Milwaukee",
+    "museum": "Robs Awesome History Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.03876205818574,
+      "longitude": -87.89874650800216
+    },
+    "address": "700 N Art Museum Dr",
+    "city": "Milwaukee",
+    "museum": "Milwaukee Art Museum Parking Garage"
+  },
+  {
+    "location": {
+      "latitude": 43.03062,
+      "longitude": -87.916799
+    },
+    "city": "Milwaukee",
+    "museum": "WWI Traveling Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.0311483612225,
+      "longitude": -87.91631670482401
+    },
+    "city": "Milwaukee",
+    "museum": "bike nite harley museum"
+  },
+  {
+    "location": {
+      "latitude": 43.040826994379735,
+      "longitude": -87.89729958135186
+    },
+    "city": "Milwaukee",
+    "museum": "Milwaukee Art Museum Boiler Room"
+  },
+  {
+    "location": {
+      "latitude": 43.03925570695962,
+      "longitude": -87.89728999890032
+    },
+    "city": "Milwaukee",
+    "museum": "Art Museum Gift Shop"
+  },
+  {
+    "location": {
+      "latitude": 43.04798894104402,
+      "longitude": -87.89506681471711
+    },
+    "address": "1360 N Prospect Ave",
+    "city": "Milwaukee",
+    "museum": "Jewish Museum Milwaukee"
+  },
+  {
+    "location": {
+      "latitude": 43.053810596466064,
+      "longitude": -87.890441
+    },
+    "address": "1801 N Prospect Ave",
+    "city": "Milwaukee",
+    "museum": "Charles Allis Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.05376860330393,
+      "longitude": -87.89018883859686
+    },
+    "address": "1801 N Prospect Ave",
+    "city": "Milwaukee",
+    "museum": "Voting 1801 N Prospect -Charles Allis Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.00654004145042,
+      "longitude": -87.97757867123379
+    },
+    "city": "Milwaukee",
+    "museum": "Pluffenstein Museum of Euphoric Dimensions"
+  },
+  {
+    "location": {
+      "latitude": 43.043977605813794,
+      "longitude": -87.89915135162347
+    },
+    "city": "Milwaukee",
+    "museum": "Vinny's Museum Of Arts & Sciences"
+  },
+  {
+    "location": {
+      "latitude": 43.05749119924738,
+      "longitude": -87.88078118271348
+    },
+    "address": "2220 N Terrace Ave",
+    "city": "Milwaukee",
+    "museum": "Villa Terrace Art Museum"
+  },
+  {
+    "location": {
+      "latitude": 43.00278682512994,
+      "longitude": -87.91977915467238
+    },
+    "address": "707 W Lincoln Ave",
+    "city": "Milwaukee",
+    "museum": "Old Southside Settlement Museum"
+  }
+]

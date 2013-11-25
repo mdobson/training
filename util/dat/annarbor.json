@@ -1,0 +1,261 @@
+[
+  {
+    "location": {
+      "latitude": 42.285136,
+      "longitude": -83.748256
+    },
+    "address": "500 N Main Srret",
+    "city": "Ann Arbor",
+    "museum": "Museum On Main Street"
+  },
+  {
+    "location": {
+      "latitude": 42.282123809220735,
+      "longitude": -83.74729639248422
+    },
+    "city": "Ann Arbor",
+    "museum": "Hands On Museum Mens Room"
+  },
+  {
+    "location": {
+      "latitude": 42.277415,
+      "longitude": -83.734154
+    },
+    "address": "1109 Geddes Ave",
+    "city": "Ann Arbor",
+    "museum": "Museum Library"
+  },
+  {
+    "location": {
+      "latitude": 42.278958,
+      "longitude": -83.736583
+    },
+    "city": "Ann Arbor",
+    "museum": "Museum Of Dentistry"
+  },
+  {
+    "location": {
+      "latitude": 42.28169499528552,
+      "longitude": -83.7465702823724
+    },
+    "address": "220 E Ann St",
+    "city": "Ann Arbor",
+    "museum": "Ann Arbor Hands-On Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.275411506370396,
+      "longitude": -83.74014794826508
+    },
+    "address": "525 S State St",
+    "city": "Ann Arbor",
+    "museum": "University of Michigan Museum of Art"
+  },
+  {
+    "location": {
+      "latitude": 42.277816819534955,
+      "longitude": -83.73504638671875
+    },
+    "address": "1109 Geddes Ave",
+    "city": "Ann Arbor",
+    "museum": "Exhibit Museum of Natural History"
+  },
+  {
+    "location": {
+      "latitude": 42.276633672563435,
+      "longitude": -83.74088558391274
+    },
+    "address": "434 S State St",
+    "city": "Ann Arbor",
+    "museum": "Kelsey Museum of Archaeology"
+  },
+  {
+    "location": {
+      "latitude": 42.28130082538378,
+      "longitude": -83.72898026373387
+    },
+    "address": "1011 N University Ave",
+    "city": "Ann Arbor",
+    "museum": "Sindecuse Museum of Dentistry"
+  },
+  {
+    "location": {
+      "latitude": 42.277912106095265,
+      "longitude": -83.7346089892427
+    },
+    "address": "1109 Geddes Ave",
+    "city": "Ann Arbor",
+    "museum": "U of M Natural History Museum Planetarium"
+  },
+  {
+    "location": {
+      "latitude": 42.275108,
+      "longitude": -83.7401935
+    },
+    "address": "525 S State St",
+    "city": "Ann Arbor",
+    "museum": "Univ. of Michigan Museum of Art - Education Center"
+  },
+  {
+    "location": {
+      "latitude": 42.302787,
+      "longitude": -83.742713
+    },
+    "address": "202 E Michigan Ave",
+    "city": "Marshall",
+    "museum": "U.S. Postal Service Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.241433217331526,
+      "longitude": -83.68820997704023
+    },
+    "city": "Ann Arbor",
+    "museum": "African American Cultural and Historical Museum of Washtenaw County"
+  },
+  {
+    "location": {
+      "latitude": 42.20725584523272,
+      "longitude": -83.69030207585755
+    },
+    "address": "525 S State St",
+    "city": "Ann Arbor",
+    "museum": "Art Museum Handball Court"
+  },
+  {
+    "location": {
+      "latitude": 42.1759552652182,
+      "longitude": -83.76674260766134
+    },
+    "city": "Saline",
+    "museum": "Rentschler Farm Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.245945307912656,
+      "longitude": -83.61419910586328
+    },
+    "address": "110 W Cross St",
+    "city": "Ypsilanti",
+    "museum": "Michigan Firehouse Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.33395616090843,
+      "longitude": -83.88006222881934
+    },
+    "city": "Dexter",
+    "museum": "dexter museum"
+  },
+  {
+    "location": {
+      "latitude": 42.2457418346898,
+      "longitude": -83.60825283195882
+    },
+    "address": "100 E Cross St",
+    "city": "Ypsilanti",
+    "museum": "Miller Motors Hudson Auto Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.333882,
+      "longitude": -83.879548
+    },
+    "address": "3443 Inverness St",
+    "city": "Dexter",
+    "museum": "Dexter Area Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.17183258964541,
+      "longitude": -83.78413081169128
+    },
+    "address": "402 N Ann Arbor St",
+    "city": "Saline",
+    "museum": "Saline Depot Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.24483024473396,
+      "longitude": -83.61261903210072
+    },
+    "address": "220 N Huron St",
+    "city": "Ypsilanti",
+    "museum": "Ypsilanti Historical Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.241433217331526,
+      "longitude": -83.58744683778143
+    },
+    "city": "Ypsilanti",
+    "museum": "Black History Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.43048268780984,
+      "longitude": -83.76579895885949
+    },
+    "address": "525 S State St",
+    "city": "Ann Arbor",
+    "museum": "University of Michigan Museum of Art"
+  },
+  {
+    "location": {
+      "latitude": 42.338634,
+      "longitude": -83.527921
+    },
+    "city": "Canton",
+    "museum": "Wolverine Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.23911203840123,
+      "longitude": -83.50835047384186
+    },
+    "city": "Belleville",
+    "museum": "Yankee Air Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.30295728220808,
+      "longitude": -83.48686570715643
+    },
+    "city": "Canton",
+    "museum": "Canton Historical Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.20836544,
+      "longitude": -83.49106135
+    },
+    "address": "405 Main St",
+    "city": "Belleville",
+    "museum": "Belleville Area Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.371663511856916,
+      "longitude": -83.46730646978702
+    },
+    "address": "155 S Main St",
+    "city": "Plymouth",
+    "museum": "Plymouth Historical Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.49814224243164,
+      "longitude": -83.35287475585938
+    },
+    "city": "Farmington",
+    "museum": "Museum"
+  },
+  {
+    "location": {
+      "latitude": 42.24413870328983,
+      "longitude": -83.41969846630334
+    },
+    "city": "Romulus",
+    "museum": "Cheesecake Museum"
+  }
+]
