@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Museums</title>
+  <script src="js/apigee.js"></script>
+  <script>
+    var apigee = new Apigee.Client({
+      orgName:"YOUR APIGEE.COM USERNAME",
+      appName:"sandbox"
+    });
+
+    var options = {
+      'type':'museums',
+      'uuid':'e8465f5a-51ea-11e3-bbed-d1cabfdcc308'
+    };
+
+    apigee.getEntity(options, function(error, entity) {
+      if(error) {
+        console.log(arguments);
+      } else {
+        entity.set("rating",5);
+        entity.save();
+      }
+    });
+
+    //Uncomment to add data to your store!
+    // museum = {"museum":"Detroit Institute of Art"};
+    // museums.addEntity(museum, function(error, response) {
+    //  if (error) { alert("write failed"); }
+    //  else { alert("succeeded!"); }
+    // });
+  </script>
+</head>
+<body>
+</body>
+</html>
