@@ -1,0 +1,259 @@
+[
+  {
+    "location": {
+      "latitude": 41.890756,
+      "longitude": -87.624169
+    },
+    "city": "Chicago",
+    "museum": "Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.86663663899534,
+      "longitude": -87.61433601379395
+    },
+    "address": "Burnham Park",
+    "city": "Chicago",
+    "museum": "Museum Campus"
+  },
+  {
+    "location": {
+      "latitude": 41.865389924449694,
+      "longitude": -87.62193282892224
+    },
+    "address": "1322 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "Museum Park Tower 1"
+  },
+  {
+    "location": {
+      "latitude": 41.870331387978354,
+      "longitude": -87.62357417035683
+    },
+    "city": "Chicago",
+    "museum": "Museum Park Lofts I"
+  },
+  {
+    "location": {
+      "latitude": 41.879463,
+      "longitude": -87.624041
+    },
+    "city": "Chicago",
+    "museum": "Museum Shop"
+  },
+  {
+    "location": {
+      "latitude": 41.939056,
+      "longitude": -87.653451
+    },
+    "museum": "Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.87053456628316,
+      "longitude": -87.63344507776253
+    },
+    "city": "Chicago",
+    "museum": "Museum Park Living"
+  },
+  {
+    "location": {
+      "latitude": 41.88899724649664,
+      "longitude": -87.62825685145783
+    },
+    "address": "360 N State St",
+    "city": "Chicago",
+    "museum": "The Museum of Broadcast Communications"
+  },
+  {
+    "location": {
+      "latitude": 41.88900414344833,
+      "longitude": -87.63597270890331
+    },
+    "address": "222 Merchandise Mart Plz",
+    "city": "Chicago",
+    "museum": "Museum Works Galleries"
+  },
+  {
+    "location": {
+      "latitude": 41.86770214170453,
+      "longitude": -87.62090123616507
+    },
+    "address": "1201 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "Museum Park West"
+  },
+  {
+    "location": {
+      "latitude": 41.892024,
+      "longitude": -87.620241
+    },
+    "address": "541 N Fairbanks Ct",
+    "city": "Chicago",
+    "museum": "Museum of Sports History"
+  },
+  {
+    "location": {
+      "latitude": 41.866173230805245,
+      "longitude": -87.61694312095642
+    },
+    "address": "1400 S Lake Shore Dr",
+    "city": "Chicago",
+    "museum": "The Field Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.8679621809766,
+      "longitude": -87.6180232585851
+    },
+    "address": "1515 S Prairie",
+    "city": "Chicago",
+    "museum": "Museum Park"
+  },
+  {
+    "location": {
+      "latitude": 41.866244699999996,
+      "longitude": -87.621535
+    },
+    "museum": "Museum Pointe"
+  },
+  {
+    "location": {
+      "latitude": 41.866034978928745,
+      "longitude": -87.62121939342262
+    },
+    "address": "233 E 13th St",
+    "city": "Chicago",
+    "museum": "Museum Park Tower 3"
+  },
+  {
+    "location": {
+      "latitude": 41.86523431061047,
+      "longitude": -87.62150380485468
+    },
+    "address": "1331 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "Museum Tower Market"
+  },
+  {
+    "location": {
+      "latitude": 41.870331387978354,
+      "longitude": -87.62357417035683
+    },
+    "city": "Chicago",
+    "museum": "Museum Park One East"
+  },
+  {
+    "location": {
+      "latitude": 41.8660473464592,
+      "longitude": -87.62162431763977
+    },
+    "address": "1235 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "Museum Park Tower 4"
+  },
+  {
+    "location": {
+      "latitude": 41.89716623689337,
+      "longitude": -87.62137413024901
+    },
+    "address": "220 E Chicago Ave",
+    "city": "Chicago",
+    "museum": "Museum of Contemporary Art Chicago"
+  },
+  {
+    "location": {
+      "latitude": 41.86713599750916,
+      "longitude": -87.62144386768341
+    },
+    "address": "1211 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "One Museum Park"
+  },
+  {
+    "location": {
+      "latitude": 41.860403939288915,
+      "longitude": -87.62357417035683
+    },
+    "city": "Chicago",
+    "museum": "Museum Park Tower 2"
+  },
+  {
+    "location": {
+      "latitude": 41.874393777756104,
+      "longitude": -87.62454545038474
+    },
+    "address": "600 S Michigan Ave",
+    "city": "Chicago",
+    "museum": "Museum of Contemporary Photography"
+  },
+  {
+    "location": {
+      "latitude": 41.86313702508549,
+      "longitude": -87.61992037296295
+    },
+    "address": "233 E 13th St",
+    "city": "Chicago",
+    "museum": "Museum Park Tower 3"
+  },
+  {
+    "location": {
+      "latitude": 41.865272,
+      "longitude": -87.620592
+    },
+    "address": "1255 S Prairie Ave",
+    "city": "Chicago",
+    "museum": "Museum Park Tower Pool"
+  },
+  {
+    "location": {
+      "latitude": 41.8489677444586,
+      "longitude": -87.61262354909998
+    },
+    "city": "Chicago",
+    "museum": "Museum Campus"
+  },
+  {
+    "location": {
+      "latitude": 41.8835006652007,
+      "longitude": -87.6283387880814
+    },
+    "address": "108 N. State St.",
+    "city": "Chicago",
+    "museum": "Chicago Design Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.90290495,
+      "longitude": -87.691962825
+    },
+    "address": "2607 W Division St",
+    "city": "Chicago",
+    "museum": "The Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.876926631195936,
+      "longitude": -87.64712333679199
+    },
+    "address": "333 S Halsted St",
+    "city": "Chicago",
+    "museum": "National Hellenic Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.89629334958982,
+      "longitude": -87.63703287479926
+    },
+    "city": "Chicago",
+    "museum": "Moody Museum"
+  },
+  {
+    "location": {
+      "latitude": 41.88088229979192,
+      "longitude": -87.62235220810877
+    },
+    "city": "Chicago",
+    "museum": "Art Institute of Chicago Museum Shop"
+  }
+]
